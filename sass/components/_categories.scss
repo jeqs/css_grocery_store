@@ -1,0 +1,24 @@
+.categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+
+  &__item {
+    &__img {
+      width: 90px;
+    }
+
+    &-title {
+      color: $color-black;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    &-description {
+      color: $color-grey;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+}
