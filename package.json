@@ -1,5 +1,15 @@
 {
+  "name": "css_grocery_store",
+  "version": "1.0.0",
+  "description": "Amatista Store",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Jose Quispe",
+  "license": "MIT",
   "dependencies": {
-    "sass": "^1.70.0"
+    "express": "^4.18.2"
   }
 }
